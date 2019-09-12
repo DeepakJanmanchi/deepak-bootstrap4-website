@@ -1,0 +1,39 @@
+
+#about {
+    align-items: center;
+    background: none;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgb(70, 65, 64);
+    color: white;
+    padding: 1.875rem;
+}
+
+
+.jumbotron{
+    position: relative;
+    background-size: cover;
+    z-index:-101;
+  }
+  
+  #video-background { 
+    position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+      width:100%;
+}
+
+
+
+#footer-main {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 2.5rem 0;
+}
